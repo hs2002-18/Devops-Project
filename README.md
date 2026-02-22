@@ -36,7 +36,7 @@ Developer → GitHub Repository → GitHub Actions → AWS S3 Bucket → Website
 
 1. Clone the repository
 
-git clone https://github.com/your-username/repository-name.git
+git clone https://github.com/hs2002-18/Static-Website-Devops-Project.git
 
 2. Create an S3 bucket
 
@@ -77,13 +77,6 @@ The GitHub Actions workflow performs the following steps:
 3. Syncs project files to the S3 bucket
 4. Deletes old files from the bucket if removed from repo
 
-## Project Structure
-
-.
-├── index.html
-├── style.css
-├── script.js
-└── .github/workflows/deploy.yml
 
 ## Future Improvements
 
